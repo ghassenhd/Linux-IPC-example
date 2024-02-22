@@ -1,0 +1,36 @@
+{
+  "wired interface" : {
+      "name" : "eth0",
+      "type" : "ether"
+  },
+  "wirless interface" : {
+    "name" : "eth1",
+    "type" : "wifi"
+  },
+  "access_points": 
+    {
+      "ssid": "publicAP",
+      "snr": 63,
+      "channel": 12
+    },
+    {
+      "ssid": "privetAP",
+      "snr": 40,
+      "channel": 2
+    },
+    {
+      "ssid": "access point",
+      "snr": 53,
+      "channel": 6
+    },
+    {
+      "ssid": "HisAP",
+      "snr": 44,
+      "channel": 3
+    }
+  ],
+  "wired interface" : {
+      "name" : "eth2",
+      "type" : "VDSL"
+  }
+}
